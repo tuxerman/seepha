@@ -1,0 +1,57 @@
+---
+layout: default
+---
+
+
+<div class="header-bar">
+  <h1>see  pha </h1>
+  <h2>whistle for level crossing</h2>
+  <br/>
+  <hr>
+  <br/>
+</div>
+
+
+<ul class="post-list">
+    {% for post in paginator.posts %}
+      <li>
+        <h2><a class="post-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+        <p class="post-meta">{{ post.date | date: '%B %-d, %Y' }}</p>
+        <!-- <p>{{ post.description }}</p> -->
+        {% if site.show_full_posts %}
+        <p>{{ post.content }}
+        {% else %}
+        <p>{{ post.excerpt }}
+        <a class="button" href="{{ post.url | prepend: site.baseurl }}">[ ... ]</a>
+        {% endif %}
+        </p>
+        <br/>
+        <hr/>
+      </li>
+    {% endfor %}
+</ul>
+
+
+<!-- <ul class="pagination">
+  {% if paginator.previous_page %}
+    <li><a href="{{ paginator.previous_page_path }}"><span class="pagination__icon">◀</span> Previous</a></li>
+  {% endif %}
+  {% if paginator.next_page %}
+    <li><a href="{{ paginator.next_page_path }}">Next <span class="pagination__icon">►</span></a></li>
+  {% endif %}
+</ul> -->
+
+
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="previous"><i class="fa fa-angle-double-left"> &nbsp; Prev</i></a>
+  {% else %}
+    <span class="previous"></span>
+  {% endif %}
+  <span class="page_number ">&nbsp;&nbsp; • {{ paginator.page }} / {{ paginator.total_pages }} • &nbsp;&nbsp;</span>
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="next">Next &nbsp;<i class="fa fa-angle-double-right"></i></a>
+  {% else %}
+    <span class="next "></span>
+  {% endif %}
+</div>

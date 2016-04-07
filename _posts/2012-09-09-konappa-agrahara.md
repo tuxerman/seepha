@@ -1,0 +1,25 @@
+---
+layout: post
+title: Idli Vadai Ondhu kodi
+date: 2012-09-09
+---
+
+Konappana Agrahara is easy to miss if you're the regular Bangalore dweller. For all you know, you might've been dozing off or wishing your car had cruise control when this tiny nondescript place whizzed by your left (or bottom-left, if you were on the flyover) along the Bangalore-Hosur highway. It must have been one of those numerous little villages that you know nothing more of save the name that pops up in white letters on the green boards that line the national highways. For the nonchalant cityfolk that we tend to be, these places must have served as mere placemarkers, another familiar milestone that we passed when cruising along the road in our hurry to get to Chennai, Salem or Cochin. Perhaps a spot to stop for a tea or a pee. 
+
+Konappa (as I shall be henceforth calling it, for obvious simplicity) - which has been my place of residence for close to two months of my coming to this city, by all means gives you the impression of a curiosity shop. Infact, the place is vividly similar to the many little temple-towns that dot interior Tamil Nadu. Vaitheeswaran Koil, Sankaran Koil, Sucheendram and the like. To start with, it does not feel like (rather, it is not) Bangalore. Geographically closer to Tamil Nadu, it sits in that confused spot where you can get away with speaking in Tamil rather than take the trouble to liberally infuse your sentences with the 'maadi' word. 
+
+Mornings are quite the nippy kind, even for places that are more than a stone's throw away from the city. After finally deciding to lug myself out of bed (the alarm having been snoozed around six or seven times) I set the bucket at rest under the trickling stream of hot water issuing from the water heater. I warm my hands on the heat being given off by the burner inside the heater and spend a while looking at the crowd walking on the road below. That is where the confluence is first visible. The general, shirt-clad drove of faceless IT professionals walking to work rush past unmindful of the slower, older and more pertinent crowd - the shoe-seller, the temple priest, paan-wallah - and the frail old man carrying the fortune-telling parrot. 
+
+> .. men who come from the hills 
+
+> With parrots in a cage and fortune cards 
+
+Kamala Das had it right. From the dark and looming Yelagiri hills near Jolarpettai to the barren open lands that the towns quickly gave way to, each of these nondescript places have a story of their own to silently present. It talked to those who cared to listen. To those who stopped their cars to sip tea and smoke a local beedi at the wayside shop. To those who paused to look around while straightening their tie. The story that was so intertwined with the rough pace which the village was forced to take, in the rushing current of India's booming businesses. Of how tiny little houses gave way to hostels, of how the paanwallah became a mobile phone recharge shop owner. 
+
+Life is laid-back. The smell of thaazham-poo kumkumam floats up to my room from the ornate shop below selling 'puja items'. It is quite a nice little shop, the kind that makes you want to reach for your camera at times and shoot the bright colours and wish you could capture the smells as well. The fruit-seller with his surprisingly unending collection of dilapidated five-rupee notes sits outside his shop. The monkey that had become friends with the gentle, well fed cow roaming the roads at her own sweet will is nowhere to be seen. The sardarji glares out at passersby from his mattress shop. The temple priest performs aarti on someone's newly bought autorickshaw.
+
+The business end of things makes up for the unhurried nature of everything. A few paces away, hundreds of Volvos buzz past, their turbos in full song, ferrying people to and from work. The sun sets to scores of blue-shirts and black trousers marching home marking what was another day at the office. The stress and cholestrol-levels threaten to render the air heavy with their pregnant danger. A man stands with a fortune-telling robot. The barber shop services a lone customer, the barber relating some interesting tales as the person listens with the barest of nods. A makeshift jalebi stall has just been set up and the friendly stray dogs wait in anticipation for a few crumbs. A bunch of giggling ladies devour pani puris at the Kolkata chaat centre. 
+
+The town sleeps late.
+
+Like most of the people here, I crashed here in the hope of using it as a rock to rest my head while I searched for a proper apartment to live in, somewhere in the city. And like many others, I found myself as surely drawn to the place and the people as we were put off by its numerous shortcomings. It would probably be just a matter of weeks before we moved out, but Konappa agrahara, with all its bells and whistles, has managed to leave a mark as vivid as the kumkum colours in the puja shop below. 

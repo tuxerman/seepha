@@ -1,0 +1,29 @@
+# Site settings
+title: see.pha.
+email: you@example.com
+description: 
+baseurl: /anotherbloggerbloke
+url: http://tuxerman.github.io
+
+# Build settings
+markdown: kramdown
+
+highlighter: 
+
+# Pagination
+paginate: 3
+paginate_path: /posts/page:num
+gems: [jekyll-paginate]
+
+# show full posts or paginate
+show_full_posts: false
+
+collections:
+  portfolio:
+    output: false
+    permalink: /portfolio/:path/
+  poetry:
+    output: false
+    permalink: /poetry/:path/
+
+
