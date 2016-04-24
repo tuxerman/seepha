@@ -2,6 +2,7 @@
 layout: post
 title: Gaadi Baraabar
 date: 2014-03-01
+bloggerlink: http://anotherbloggerbloke.blogspot.com/2014/01/gaadi-barabar.html
 ---
 
 Night train journeys have always been special, despite a large portion of my train journeys having been overnight. The earth smells different when you stand at the door facing the dark countryside rushing by outside while the wheels belt out a steady 110kmph rhythm under your feet, and the feeling gets almost surreal. It's a deeply personal, quiet and contemplative moment I relish  in a life where most of one's waking hours are spent in a chattering, chaotic and sometimes utterly lunatic world.

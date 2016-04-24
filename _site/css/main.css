@@ -21,11 +21,11 @@ dl, dd, ol, ul, figure {
  */
 body {
   font-family: Alegreya Sans, sans-serif;
-  font-size: 16px;
+  font-size: 17px;
   line-height: 1.5em;
   font-weight: 400;
-  color: #4d4d4d;
-  background-color: #f2f2f2;
+  color: #333333;
+  background-color: #F7F7F7;
   -webkit-text-size-adjust: 100%; }
 
 /**
@@ -53,7 +53,7 @@ figure > img {
   display: block; }
 
 figcaption {
-  font-size: 14px; }
+  font-size: 14.875px; }
 
 /**
  * Lists
@@ -76,28 +76,29 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-  color: #333333;
+  color: #262626;
   text-decoration: none;
-  /*
-  &:visited {
-      color: darken($brand-color, 15%); 
-  }
-  */ }
+  -o-transition: 0.35s;
+  -ms-transition: 0.35s;
+  -moz-transition: 0.35s;
+  -webkit-transition: 0.35s;
+  transition: 0.35s; }
   a:hover {
     color: #B7D12A;
     text-decoration: none; }
 
 article a {
-  color: #bbbbbb;
+  color: #B7D12A;
   font-weight: 400; }
   article a:hover {
+    color: #333333;
     text-decoration: none; }
 
 /**
  * Blockquotes
  */
 blockquote {
-  color: #4d4d4d;
+  color: #333333;
   border-left: 10px solid #ddd;
   padding-left: 25px;
   font-size: 18px;
@@ -155,8 +156,8 @@ pre {
  */
 .site-header {
   border-bottom: 1px solid #ddd;
-  background-color: #dddddd;
-  opacity: 0.75;
+  background-color: #DDDDDD;
+  opacity: 0.60;
   position: fixed;
   left: 0px;
   top: 0px;
@@ -215,9 +216,9 @@ pre {
  * Site footer  **********************************************************
  */
 .site-footer {
-  border-top: 1px solid #333;
+  border-top: 1px solid #333333;
   font-size: 10px;
-  background-color: #333;
+  background-color: #333333;
   padding: 2px;
   color: #aaa;
   position: fixed;
@@ -239,6 +240,37 @@ pre {
   font-size: 50px; }
   .paginationicon a {
     color: #B7D12A; }
+
+/**
+ * "Continue reading" dots   **********************************************************
+ */
+.continue-button {
+  display: block;
+  height: 7.5em;
+  width: 100%;
+  background: #F7F7F7;
+  line-height: 7.5em;
+  /*Step 3: Text Styles*/
+  color: #DDDDDD;
+  text-align: center;
+  font-size: 5px; }
+
+a.continue-button {
+  text-decoration: none;
+  vertical-align: middle; }
+
+a.continue-button:hover {
+  background: #efefef;
+  color: #ffffff; }
+
+.archive-year {
+  padding: 7px;
+  text-align: left;
+  color: #cccccc;
+  font-size: 40px;
+  font-weight: 100;
+  padding-top: 1em;
+  padding-bottom: 0.5em; }
 
 /**
  * Page content   **********************************************************
@@ -264,6 +296,10 @@ pre {
 .center {
   text-align: center; }
 
+.center-img {
+  text-align: center;
+  width: 100%; }
+
 /**
  * Posts  **********************************************************
  */
@@ -271,12 +307,21 @@ pre {
   margin-bottom: 40px; }
 
 .post-title {
+  color: #B7D12A;
   font-size: 42px;
   letter-spacing: -1px;
   line-height: 1; }
   @media screen and (max-width: 800px) {
     .post-title {
       font-size: 36px; } }
+  .post-title:hover {
+    text-decoration: none;
+    color: #333333; }
+  .post-title a {
+    color: #B7D12A; }
+  .post-title a:hover {
+    text-decoration: none;
+    color: #333333; }
 
 .post-content h2 {
   font-size: 42px; }
@@ -295,13 +340,27 @@ pre {
       font-size: 18px; } }
 
 .post-meta {
-  font-size: 14px;
+  font-size: 14.875px;
   color: #828282;
   margin-bottom: 10px; }
 
 .post-link {
   display: block;
   font-size: 42px; }
+
+.post-image {
+  width: 100%;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  /* for larger shadows*/
+  /*box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);*/ }
+
+.post-image-link {
+  width: 100%;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.2s ease-in-out; }
+
+.post-image-link:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); }
 
 /** Poem formatting ********************************************/
 .poem-title {

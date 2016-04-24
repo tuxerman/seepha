@@ -3,8 +3,8 @@
  */
 .site-header {
 border-bottom: 1px solid $grey-color-light;
-background-color: #dddddd;
-opacity: 0.75;
+background-color: $header-background;
+opacity: 0.60;
 position:fixed;
 left:0px;
 top:0px;
@@ -100,6 +100,42 @@ a {
 color: $theme-color;
     }
 }
+
+/**
+ * "Continue reading" dots   **********************************************************
+ */
+.continue-button{
+    display: block;
+    height: 7.5em;
+    width: 100%;
+    background: $background-color;
+    line-height:7.5em;
+    
+    /*Step 3: Text Styles*/
+    color: $header-background;
+    text-align: center;
+    font-size: 5px;
+}
+a.continue-button {
+    text-decoration: none;
+    vertical-align: middle;
+}
+a.continue-button:hover {
+    background: darken($background-color, 3%);
+    color: #ffffff;
+}
+
+.archive-year {
+    padding: 7px;
+    text-align: left;
+    color: #cccccc;
+    font-size: 40px;
+    font-weight: 100;
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+}
+
+
 /**
  * Page content   **********************************************************
  */
@@ -124,6 +160,10 @@ margin: 10px;
 .center{
 text-align: center;
 }
+.center-img{
+text-align: center;
+width:100%;
+}
 /**
  * Posts  **********************************************************
  */
@@ -131,12 +171,24 @@ text-align: center;
 margin-bottom: $vertical-spacing-unit;
 }
 .post-title {
+color: $theme-color;
 font-size: 42px;
 letter-spacing: -1px;
 line-height: 1;
 @include media-query($on-laptop) {
 font-size: 36px;
     }
+&:hover {
+    text-decoration: none;
+    color: $grey-color-dark;
+}
+a {
+    color:$theme-color;
+}
+a:hover{
+    text-decoration: none;
+    color: $grey-color-dark; 
+}
 }
 .post-content {
 h2 {
@@ -167,6 +219,25 @@ margin-bottom: 10px;
 display: block;
 font-size: 42px;
 }
+
+.post-image{
+  width: 100%;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  
+  /* for larger shadows*/
+  /*box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);*/ 
+}
+
+.post-image-link{
+  width: 100%;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.2s ease-in-out;
+}
+
+.post-image-link:hover {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
 
 /** Poem formatting ********************************************/
 .poem-title {

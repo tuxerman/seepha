@@ -2,6 +2,7 @@
 layout: post
 title: Idli Vadai Ondhu kodi
 date: 2012-09-09
+bloggerlink: http://anotherbloggerbloke.blogspot.com/2012/09/konappana-agrahara-is-easy-to-miss-if.html
 ---
 
 Konappana Agrahara is easy to miss if you're the regular Bangalore dweller. For all you know, you might've been dozing off or wishing your car had cruise control when this tiny nondescript place whizzed by your left (or bottom-left, if you were on the flyover) along the Bangalore-Hosur highway. It must have been one of those numerous little villages that you know nothing more of save the name that pops up in white letters on the green boards that line the national highways. For the nonchalant cityfolk that we tend to be, these places must have served as mere placemarkers, another familiar milestone that we passed when cruising along the road in our hurry to get to Chennai, Salem or Cochin. Perhaps a spot to stop for a tea or a pee. 

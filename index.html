@@ -22,24 +22,18 @@ layout: default
         <p>{{ post.content }}
         {% else %}
         <p>{{ post.excerpt }}
-        <a class="button" href="{{ post.url | prepend: site.baseurl }}">[ ... ]</a>
+        <a class="continue-button" href="{{ post.url | prepend: site.baseurl }}">
+        <i class="fa fa-circle" aria-hidden="true"></i>&nbsp; &nbsp; &nbsp;
+        <i class="fa fa-circle" aria-hidden="true"></i>&nbsp; &nbsp; &nbsp;
+        <i class="fa fa-circle" aria-hidden="true"></i>
+        </a>
+       
         {% endif %}
         </p>
-        <br/>
         <hr/>
       </li>
     {% endfor %}
 </ul>
-
-
-<!-- <ul class="pagination">
-  {% if paginator.previous_page %}
-    <li><a href="{{ paginator.previous_page_path }}"><span class="pagination__icon">◀</span> Previous</a></li>
-  {% endif %}
-  {% if paginator.next_page %}
-    <li><a href="{{ paginator.next_page_path }}">Next <span class="pagination__icon">►</span></a></li>
-  {% endif %}
-</ul> -->
 
 
 <div class="pagination">

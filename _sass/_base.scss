@@ -17,6 +17,7 @@ $base-line-height:              1.5em;
 $horizontal-spacing-unit:       50px;
 $vertical-spacing-unit:         40px;
 $nav-height:                    56px;
+$link-fade-secs:                .35s;
 
 /* portfolio tinkering */
 $img_spacing: 5px; 
@@ -33,13 +34,14 @@ $lime_green: #B7D12A;
 $purple: #B509AC;
 
 
-$grey-color-dark: #333;   /* footer */
+$grey-color-dark: #333333;   /* footer */
 $grey-color-light: #ddd;  /* navigation bar border */
-$text-color:     #4d4d4d;
-$title-color:    #333333;
+$text-color:     $grey-color-dark;
+$header-link-color:    #262626;
 
 /* Set theme color *************************/
 $theme-color:   $lime_green;
+$header-background: #DDDDDD;
 
 
 /************************************************************/
@@ -125,13 +127,16 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-    color: $title-color;
+    color: $header-link-color;
     text-decoration: none;
-    /*
-    &:visited {
-        color: darken($brand-color, 15%); 
-    }
-    */
+    
+    // transitions
+    -o-transition:$link-fade-secs;
+    -ms-transition:$link-fade-secs;
+    -moz-transition:$link-fade-secs;
+    -webkit-transition:$link-fade-secs;
+    transition:$link-fade-secs;
+    
     &:hover {
         color: $theme-color;
         text-decoration: none;
@@ -139,10 +144,11 @@ a {
 }
 
 article a {
-    color: #bbbbbb;
+    color: $theme-color;
     font-weight: 400;
 
     &:hover {
+        color: $grey-color-dark;
         text-decoration: none;
     }
 }

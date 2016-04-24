@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Pen Hospital
-date: 2014-12-03 15:09:00
+date: 2014-12-03
+bloggerlink: http://anotherbloggerbloke.blogspot.com/2014/12/pen-hospital.html
 ---
 
 Growing up in the sleepy city of Trivandrum in the 90s, early school days were prime "Only 90s kids will know" material. This time, I was nine, and fourth standard marked that coming of age in junior school where you transitioned from scruffy Nataraj Gold or Camlin Flora pencils to writing with a pen. Just two years ago, we had been little urchins, our black shorts just shy of our knees struggling to copy down Ms. Murray's beautiful cursive writing into our four-line notebooks. Silently, almost subconsciously sounding the words we wrote, to ourselves. The silent Rs. ("Goodness, Sriram! Cahtuh, not Kaartar"). Making sure we never stopped to cross our Ts or dot the Is in the midst of a word, but letting the lines flow undisturbed till we completed the word, and then rushing back to complete the little formalities. The grand, flowery tops of the Is and the bottoms of capital Ds. (Many years later - "I love the way you write that D. Here, write my name".)

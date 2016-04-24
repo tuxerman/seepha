@@ -1,16 +1,20 @@
 ---
 layout: page
-title: about
+title: About
 icon: <i class="fa fa-user"></i>
 permalink: /about/
 ---
 
 <!-- <img class="col one right" src="/img/prof_pic.jpg"> -->
-
-<br/>
 Presently pottering about reading, making music and generally enjoying dabbling with stuff I am not paid to do, whilst keeping the lights on with an engineering job in downtown San Francisco.
 
 Eternally engaged in a duel between the self that builds things and enjoys crisp, logical lines of thought, and the slow, dreamy, nostalgic history buff forever dwelling in in the past.
+
+<hr/>
+<br/>
+[<i class="fa fa-rss-square" aria-hidden="true"></i> My blogger blog](http://anotherbloggerbloke.blogspot.com) is where all posts dated before the summer of 2016 appeared originally.
+<br/>
+[<i class="fa fa-twitter-square"></i> @tuxerman](http://www.twitter.com/tuxerman) on twitter
 
 <!-- 
 <br/>
