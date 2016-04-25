@@ -11,7 +11,6 @@ layout: default
   <br/>
 </div>
 
-
 <ul class="post-list">
     {% for post in paginator.posts %}
       <li>
@@ -23,9 +22,7 @@ layout: default
         {% else %}
         <p>{{ post.excerpt }}
         <a class="continue-button" href="{{ post.url | prepend: site.baseurl }}">
-        <i class="fa fa-circle" aria-hidden="true"></i>&nbsp; &nbsp; &nbsp;
-        <i class="fa fa-circle" aria-hidden="true"></i>&nbsp; &nbsp; &nbsp;
-        <i class="fa fa-circle" aria-hidden="true"></i>
+        • • •
         </a>
        
         {% endif %}

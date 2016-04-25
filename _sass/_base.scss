@@ -13,9 +13,9 @@ dl, dd, ol, ul, figure {
 /** Variables **********************************************/
 $title-font-family:             Alegreya Sans, sans-serif;
 $base-font-family:              Alegreya Sans, sans-serif;
-$base-line-height:              1.5em;
-$horizontal-spacing-unit:       50px;
-$vertical-spacing-unit:         40px;
+$base-line-height:              1.4em;
+$horizontal-spacing-unit:       40px;
+$vertical-spacing-unit:         45px;
 $nav-height:                    56px;
 $link-fade-secs:                .35s;
 
@@ -31,6 +31,7 @@ $orange: #F29105;
 $blue: #2698BA;
 $green: #11D68B;
 $lime_green: #B7D12A;
+$readable_lime_green: #a9c026;
 $purple: #B509AC;
 
 
@@ -40,7 +41,7 @@ $text-color:     $grey-color-dark;
 $header-link-color:    #262626;
 
 /* Set theme color *************************/
-$theme-color:   $lime_green;
+$theme-color:   $readable_lime_green;
 $header-background: #DDDDDD;
 
 
@@ -129,7 +130,7 @@ h1, h2, h3, h4, h5, h6 {
 a {
     color: $header-link-color;
     text-decoration: none;
-    
+
     // transitions
     -o-transition:$link-fade-secs;
     -ms-transition:$link-fade-secs;
@@ -145,11 +146,10 @@ a {
 
 article a {
     color: $theme-color;
-    font-weight: 400;
 
     &:hover {
         color: $grey-color-dark;
-        text-decoration: none;
+        text-decoration: underline;
     }
 }
 

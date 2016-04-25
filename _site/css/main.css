@@ -1,5 +1,4 @@
 @import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:400,300);
-@import url(https://fonts.googleapis.com/css?family=Alegreya:400,300);
 /**
  * Reset some basic elements
  */
@@ -21,11 +20,11 @@ dl, dd, ol, ul, figure {
  */
 body {
   font-family: Alegreya Sans, sans-serif;
-  font-size: 17px;
-  line-height: 1.5em;
+  font-size: 16px;
+  line-height: 1.4em;
   font-weight: 400;
   color: #333333;
-  background-color: #F7F7F7;
+  background-color: #F9F9F9;
   -webkit-text-size-adjust: 100%; }
 
 /**
@@ -34,7 +33,7 @@ body {
 p, blockquote, pre,
 ul, ol, dl, figure,
 .highlight {
-  margin-bottom: 20px; }
+  margin-bottom: 22.5px; }
 
 .alignright {
   float: right; }
@@ -53,13 +52,13 @@ figure > img {
   display: block; }
 
 figcaption {
-  font-size: 14.875px; }
+  font-size: 14px; }
 
 /**
  * Lists
  */
 ul, ol {
-  margin-left: 50px; }
+  margin-left: 40px; }
 
 li > ul,
 li > ol {
@@ -84,15 +83,14 @@ a {
   -webkit-transition: 0.35s;
   transition: 0.35s; }
   a:hover {
-    color: #B7D12A;
+    color: #a9c026;
     text-decoration: none; }
 
 article a {
-  color: #B7D12A;
-  font-weight: 400; }
+  color: #a9c026; }
   article a:hover {
     color: #333333;
-    text-decoration: none; }
+    text-decoration: underline; }
 
 /**
  * Blockquotes
@@ -100,7 +98,7 @@ article a {
 blockquote {
   color: #333333;
   border-left: 10px solid #ddd;
-  padding-left: 25px;
+  padding-left: 20px;
   font-size: 18px;
   font-style: italic; }
   blockquote > :last-child {
@@ -130,16 +128,16 @@ pre {
  * Wrapper
  */
 .wrapper {
-  max-width: -webkit-calc(800px - (50px * 2));
-  max-width: calc(800px - (50px * 2));
+  max-width: -webkit-calc(800px - (40px * 2));
+  max-width: calc(800px - (40px * 2));
   margin-right: auto;
   margin-left: auto;
-  padding-right: 50px;
-  padding-left: 50px; }
+  padding-right: 40px;
+  padding-left: 40px; }
   @media screen and (max-width: 800px) {
     .wrapper {
-      max-width: -webkit-calc(800px - (50px));
-      max-width: calc(800px - (50px));
+      max-width: -webkit-calc(800px - (40px));
+      max-width: calc(800px - (40px));
       padding-right: 15px;
       padding-left: 15px; } }
 
@@ -173,13 +171,13 @@ pre {
   margin-bottom: 0; }
   .site-title:hover {
     text-decoration: none;
-    color: #B7D12A; }
+    color: #a9c026; }
 
 .site-nav {
   float: right;
   line-height: 56px; }
   .site-nav .page-link {
-    line-height: 1.5em; }
+    line-height: 1.4em; }
     .site-nav .page-link:not(:first-child) {
       margin-left: 20px; }
   @media screen and (max-width: 600px) {
@@ -207,7 +205,7 @@ pre {
   line-height: 3em;
   z-index: 25; }
   .header-bar h1 {
-    color: #B7D12A;
+    color: #a9c026;
     font-size: 75px; }
   .header-bar h2 {
     font-size: 25px; }
@@ -231,7 +229,7 @@ pre {
  * Pagination   **********************************************************
  */
 .pagination {
-  max-width: -webkit-calc(800px - (50px * 2));
+  max-width: -webkit-calc(800px - (40px * 2));
   text-align: center;
   width: 100%;
   bottom: 50px; }
@@ -239,29 +237,27 @@ pre {
 .paginationicon {
   font-size: 50px; }
   .paginationicon a {
-    color: #B7D12A; }
+    color: #a9c026; }
 
 /**
  * "Continue reading" dots   **********************************************************
  */
 .continue-button {
   display: block;
-  height: 7.5em;
+  height: 2em;
   width: 100%;
-  background: #F7F7F7;
-  line-height: 7.5em;
-  /*Step 3: Text Styles*/
-  color: #DDDDDD;
-  text-align: center;
-  font-size: 5px; }
+  background: #F9F9F9;
+  line-height: 2em;
+  color: #a9c026;
+  text-align: center; }
 
 a.continue-button {
   text-decoration: none;
   vertical-align: middle; }
 
 a.continue-button:hover {
-  background: #efefef;
-  color: #ffffff; }
+  background: #f1f1f1;
+  color: #333333; }
 
 .archive-year {
   padding: 7px;
@@ -286,7 +282,7 @@ a.continue-button:hover {
   margin: 0px 0;
   list-style: none; }
   .post-list > li {
-    margin-bottom: 40px; }
+    margin-bottom: 45px; }
 
 .contacticon {
   font-size: 60px;
@@ -304,21 +300,18 @@ a.continue-button:hover {
  * Posts  **********************************************************
  */
 .post-header {
-  margin-bottom: 40px; }
+  margin-bottom: 45px; }
 
 .post-title {
-  color: #B7D12A;
+  color: #a9c026;
   font-size: 42px;
   letter-spacing: -1px;
   line-height: 1; }
   @media screen and (max-width: 800px) {
     .post-title {
       font-size: 36px; } }
-  .post-title:hover {
-    text-decoration: none;
-    color: #333333; }
   .post-title a {
-    color: #B7D12A; }
+    color: #a9c026; }
   .post-title a:hover {
     text-decoration: none;
     color: #333333; }
@@ -340,7 +333,7 @@ a.continue-button:hover {
       font-size: 18px; } }
 
 .post-meta {
-  font-size: 14.875px;
+  font-size: 14px;
   color: #828282;
   margin-bottom: 10px; }
 
@@ -350,9 +343,14 @@ a.continue-button:hover {
 
 .post-image {
   width: 100%;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /*text-align: center;*/
+  /*Smaller, very subtle shadow*/
+  /*box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);*/
   /* for larger shadows*/
-  /*box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);*/ }
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
 
 .post-image-link {
   width: 100%;
@@ -427,7 +425,7 @@ a.continue-button:hover {
  * Portfolio pages **********************************************************
 */
 .blankbox {
-  background: #B7D12A; }
+  background: #a9c026; }
 
 .img_row {
   height: 275px;
