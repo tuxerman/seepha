@@ -17,6 +17,7 @@ z-index: 50;
 float:left;
 font-size: 28px;
 line-height: $nav-height;
+font-family: $title-font-family;
 letter-spacing: -1px;
 margin-bottom: 0;
 &:hover {
@@ -26,6 +27,7 @@ color: $theme-color;
 }
 .site-nav {
 float: right;
+font-family: $title-font-family;
 line-height: $nav-height;
 .page-link{
 line-height: $base-line-height;

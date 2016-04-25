@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:400,300);
+@import url(https://fonts.googleapis.com/css?family=EB+Garamond);
 /**
  * Reset some basic elements
  */
@@ -19,8 +20,8 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-  font-family: Alegreya Sans, sans-serif;
-  font-size: 16px;
+  font-family: EB Garamond, sans-serif;
+  font-size: 18px;
   line-height: 1.4em;
   font-weight: 400;
   color: #333333;
@@ -52,7 +53,7 @@ figure > img {
   display: block; }
 
 figcaption {
-  font-size: 14px; }
+  font-size: 15.75px; }
 
 /**
  * Lists
@@ -167,6 +168,7 @@ pre {
   float: left;
   font-size: 28px;
   line-height: 56px;
+  font-family: Alegreya Sans, sans-serif;
   letter-spacing: -1px;
   margin-bottom: 0; }
   .site-title:hover {
@@ -175,6 +177,7 @@ pre {
 
 .site-nav {
   float: right;
+  font-family: Alegreya Sans, sans-serif;
   line-height: 56px; }
   .site-nav .page-link {
     line-height: 1.4em; }
@@ -333,7 +336,7 @@ a.continue-button:hover {
       font-size: 18px; } }
 
 .post-meta {
-  font-size: 14px;
+  font-size: 15.75px;
   color: #828282;
   margin-bottom: 10px; }
 
