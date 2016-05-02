@@ -16,7 +16,6 @@ layout: default
       <li>
         <h2><a class="post-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
         <p class="post-meta">{{ post.date | date: '%B %-d, %Y' }}</p>
-        <!-- <p>{{ post.description }}</p> -->
         {% if site.show_full_posts %}
         <p>{{ post.content }}
         {% else %}
@@ -35,13 +34,14 @@ layout: default
 
 <div class="pagination">
   {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="previous"><i class="fa fa-angle-double-left"> &nbsp; Prev</i></a>
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="previous"><i class="fa fa-angle-double-left"></i> &nbsp; Newer</a>
   {% else %}
     <span class="previous"></span>
   {% endif %}
-  <span class="page_number ">&nbsp;&nbsp; • {{ paginator.page }} / {{ paginator.total_pages }} • &nbsp;&nbsp;</span>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <!-- <span class="page_number ">&nbsp;&nbsp; • {{ paginator.page }} / {{ paginator.total_pages }} • &nbsp;&nbsp;</span> -->
   {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="next">Next &nbsp;<i class="fa fa-angle-double-right"></i></a>
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="next">Older &nbsp;<i class="fa fa-angle-double-right"></i></a>
   {% else %}
     <span class="next "></span>
   {% endif %}
