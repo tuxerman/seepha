@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:400,300);
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:400,300);
 @import url(https://fonts.googleapis.com/css?family=EB+Garamond);
 /**
  * Reset some basic elements
@@ -22,10 +23,10 @@ dl, dd, ol, ul, figure {
 body {
   font-family: EB Garamond, sans-serif;
   font-size: 18px;
-  line-height: 1.4em;
+  line-height: 1.55em;
   font-weight: 400;
   color: #333333;
-  background-color: #F9F9F9;
+  background-color: #FFFFFF;
   -webkit-text-size-adjust: 100%; }
 
 /**
@@ -34,7 +35,7 @@ body {
 p, blockquote, pre,
 ul, ol, dl, figure,
 .highlight {
-  margin-bottom: 22.5px; }
+  margin-bottom: 32.5px; }
 
 .alignright {
   float: right; }
@@ -180,7 +181,7 @@ pre {
   font-family: Alegreya Sans, sans-serif;
   line-height: 56px; }
   .site-nav .page-link {
-    line-height: 1.4em; }
+    line-height: 1.55em; }
     .site-nav .page-link:not(:first-child) {
       margin-left: 20px; }
   @media screen and (max-width: 600px) {
@@ -249,7 +250,7 @@ pre {
   display: block;
   height: 2em;
   width: 100%;
-  background: #F9F9F9;
+  background: #FFFFFF;
   line-height: 2em;
   color: #a9c026;
   text-align: center; }
@@ -259,7 +260,7 @@ a.continue-button {
   vertical-align: middle; }
 
 a.continue-button:hover {
-  background: #f1f1f1;
+  background: #f7f7f7;
   color: #333333; }
 
 .archive-year {
@@ -285,7 +286,7 @@ a.continue-button:hover {
   margin: 0px 0;
   list-style: none; }
   .post-list > li {
-    margin-bottom: 45px; }
+    margin-bottom: 65px; }
 
 .contacticon {
   font-size: 60px;
@@ -303,7 +304,7 @@ a.continue-button:hover {
  * Posts  **********************************************************
  */
 .post-header {
-  margin-bottom: 45px; }
+  margin-bottom: 48.75px; }
 
 .post-title {
   color: #a9c026;
@@ -336,6 +337,7 @@ a.continue-button:hover {
       font-size: 18px; } }
 
 .post-meta {
+  font-family: Alegreya Sans, sans-serif;
   font-size: 15.75px;
   color: #828282;
   margin-bottom: 10px; }

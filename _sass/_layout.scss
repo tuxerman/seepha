@@ -167,7 +167,7 @@ width:100%;
  * Posts  **********************************************************
  */
 .post-header {
-margin-bottom: $vertical-spacing-unit;
+margin-bottom: $vertical-spacing-unit*0.75;
 }
 .post-title {
 color: $theme-color;
@@ -207,6 +207,7 @@ font-size: 18px;
     }
 }
 .post-meta {
+font-family: $title-font-family;
 font-size: $small-font-size;
 color: $grey-color;
 margin-bottom: 10px; 
