@@ -16,7 +16,6 @@ layout: default
       <li>
         <h2><a class="post-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
         <p class="post-meta">{{ post.date | date: '%B %-d, %Y' }}</p>
-        <!-- <p>{{ post.description }}</p> -->
         {% if site.show_full_posts %}
         <p>{{ post.content }}
         {% else %}

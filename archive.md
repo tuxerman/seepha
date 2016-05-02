@@ -15,7 +15,7 @@ permalink: /archive/
     {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
     {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
     {% if year != nyear %}
-        <tr style="padding-top: 5em;">
+        <tr style="padding-top: 3em;">
         <td class="archive-year">{{ post.date | date: '%Y' }}</td>
         </tr>
     {% endif %}
