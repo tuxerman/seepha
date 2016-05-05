@@ -1,6 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:400,300);
-@import url(https://fonts.googleapis.com/css?family=Fira+Sans:400,300);
-@import url(https://fonts.googleapis.com/css?family=EB+Garamond);
+@import url(https://fonts.googleapis.com/css?family=Crimson+Text);
 /**
  * Reset some basic elements
  */
@@ -21,12 +20,12 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-  font-family: EB Garamond, sans-serif;
+  font-family: Crimson Text, Georgia, sans-serif;
   font-size: 18px;
-  line-height: 1.55em;
+  line-height: 1.53;
   font-weight: 400;
   color: #333333;
-  background-color: #F9F9F9;
+  background-color: #FFF;
   -webkit-text-size-adjust: 100%; }
 
 /**
@@ -70,7 +69,7 @@ li > ol {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
-  font-family: Alegreya Sans, sans-serif;
+  font-family: Alegreya Sans, Helvetica, sans-serif;
   font-weight: 100; }
 
 /**
@@ -169,7 +168,7 @@ pre {
   float: left;
   font-size: 28px;
   line-height: 56px;
-  font-family: Alegreya Sans, sans-serif;
+  font-family: Alegreya Sans, Helvetica, sans-serif;
   letter-spacing: -1px;
   margin-bottom: 0; }
   .site-title:hover {
@@ -178,10 +177,10 @@ pre {
 
 .site-nav {
   float: right;
-  font-family: Alegreya Sans, sans-serif;
+  font-family: Alegreya Sans, Helvetica, sans-serif;
   line-height: 56px; }
   .site-nav .page-link {
-    line-height: 1.55em; }
+    line-height: 1.53; }
     .site-nav .page-link:not(:first-child) {
       margin-left: 20px; }
   @media screen and (max-width: 600px) {
@@ -250,7 +249,7 @@ pre {
   display: block;
   height: 2em;
   width: 100%;
-  background: #F9F9F9;
+  background: #FFF;
   line-height: 2em;
   color: #a9c026;
   text-align: center; }
@@ -260,10 +259,11 @@ a.continue-button {
   vertical-align: middle; }
 
 a.continue-button:hover {
-  background: #f1f1f1;
+  background: #f7f7f7;
   color: #333333; }
 
 .archive-year {
+  font-family: Alegreya Sans, Helvetica, sans-serif;
   padding: 7px;
   text-align: left;
   color: #cccccc;
@@ -337,7 +337,7 @@ a.continue-button:hover {
       font-size: 18px; } }
 
 .post-meta {
-  font-family: Alegreya Sans, sans-serif;
+  font-family: Alegreya Sans, Helvetica, sans-serif;
   font-size: 15.75px;
   color: #828282;
   margin-bottom: 10px; }
