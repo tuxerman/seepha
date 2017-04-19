@@ -28,6 +28,3 @@ collections:
   poetry:
     output: false
     permalink: /poetry/:path/
-
-# Disqus
-comments: true
