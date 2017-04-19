@@ -1,14 +1,14 @@
 # Site settings
 title: see.pha.
 email: you@example.com
-description: 
+description:
 baseurl: /anotherbloggerbloke
 url: http://tuxerman.github.io
 
 # Build settings
 markdown: kramdown
 
-highlighter: 
+highlighter:
 
 # Pagination
 paginate: 3
@@ -29,4 +29,5 @@ collections:
     output: false
     permalink: /poetry/:path/
 
-
+# Disqus
+comments: true
