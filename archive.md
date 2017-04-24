@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Archive
+title: archive
 icon: <i class="fa fa-suitcase"></i>
 permalink: /archive/
 ---

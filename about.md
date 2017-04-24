@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: about
 icon: <i class="fa fa-user"></i>
 permalink: /about/
 ---
@@ -16,7 +16,7 @@ Eternally engaged in a duel between the self that builds things and enjoys crisp
 <br/>
 [<i class="fa fa-twitter-square"></i> @tuxerman](http://www.twitter.com/tuxerman) on twitter
 
-<!-- 
+<!--
 <br/>
 <hr/>
 <br/>
